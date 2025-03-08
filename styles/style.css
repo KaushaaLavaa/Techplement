@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+   opacity: 0.7; 
+   width: 100%;
+   margin: 0;
+   height: 100%;
+   background-color: black;
+   font-family: "Poppins", sans-serif;
+}
+
+.logo{
+    margin: 0px 10%;
+    border-radius: 50%;
+}
+
+
+header{
+      display: flex;
+      flex-direction: row;
+      position: sticky;
+      background-color: palevioletred;
+      width: 100%;
+      border-radius: 5px;
+      padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 40px 30px;
+}
+
+nav ul li a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black; 
+}
+
+.login-button{
+    padding: 3px 8px;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+button:hover{
+    color: black;
+    background-color: aquamarine;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    margin: 5% 5%;
+}
+
+.discover{
+    border-radius: 8px;
+    background-color: rgb(240, 53, 84);
+    color: white;
+    margin: 0;
+}
+
+.platform{
+    color: white;
+    padding: 70px;
+    margin-left: 4rem;
+}
+  
+.login-section, .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.login-box {
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.12);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+  
+  
+ .form, .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+  }
+  
+  .login-section {
+    height: 100vh;
+    background-color: blueviolet;
+  }
+  
+  .login-title {
+    text-align: left;
+    font-size: 28px;
+    color: white;
+  }
+  
+  .login-subtitle {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+  }
+  
+  label {
+    color: #E0E0E0;
+    margin-bottom: .2rem;
+  }
+  
+input {
+    padding: .8rem;
+    border-radius: 7px;
+    border: none;
+  }
+  
+#username {
+    margin-bottom: .7rem;
+  }
+  
+#submit {
+    cursor: pointer;
+    margin-top: 1.5rem;
+    color: black;
+    background-color: white;
+    /* background-color: var(--blog); */
+    transition-duration: .6s;
+  }
+  
+#submit:hover {
+    /* background-color: var(--blog-secondary); */
+    background-color: lightgreen;
+    transform: scale(1.01);
+  }
+  
+.forget {
+    font-size: 16px;
+    margin-top: .3rem;
+    margin-left: .3rem;
+    color: #E0E0E0;
+  }
+  
+.forget:hover {
+    color: black;
+    transition-duration: .4s;
+  }
+
+.contact-box{
+    border-radius: 12px;
+    padding: 15px 10px;
+    width: 300px;
+    background: #5b9aa0;
+    box-shadow: 0 8px 20px 0 rgba(31, 38, 135, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.contact-section{
+    height: 110vh;
+    background-color: rgb(254, 249, 249);
+  }
+
+#textarea{
+    margin: 10px 0px;
+    border-radius: 7px;
+}
+
+#contact-submit{
+    color: black;
+    font-size: 15px;
+    background-color: #ffeead;
+}
+
+#contact-submit:hover{
+    color: white;
+    background-color: palevioletred;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin:0;
+        width: 100%;
+    }
+    header{
+        width: 100vh;
+    }
+    .girl-studying{
+        margin-left: 30%;
+    }
+    .main{
+       display: flex;
+       flex-direction: column; 
+       width: 100%;
+       margin-left: 20%;
+    }
+    .welcome{
+        width: 100vh;
+    }
+    .infor{
+        width: 100vh;
+    }
+}
+  
+    
+
+
+  
+
+
+  
