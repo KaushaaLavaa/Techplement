@@ -90,19 +90,6 @@
     <div class="show-more-container">
         <button id="showMoreButton" class="show-more-button">Show more</button>
     </div>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const showMoreButton = document.getElementById('showMoreButton');
-        const hiddenItems = document.querySelectorAll('.grid-items-hidden');
-
-        showMoreButton.addEventListener('click', function() {
-            hiddenItems.forEach(item => {
-                item.classList.remove('grid-items-hidden');
-                item.classList.add('grid-items')
-            });
-             showMoreButton.style.display = 'none';
-        });
-    });
-    </script>
+    <script src="../script.js"> </script>
 </body>
 </html>
